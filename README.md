@@ -1,9 +1,7 @@
 
-# Dis my shitty Rats
+# tehe
 
-Just Replace webhook in the only class there is and do gradlew build
+suck my ass
 
-thats it
 
- ratsrc
- 
+
